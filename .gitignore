@@ -5,3 +5,5 @@ dist/
 *.py[cod]
 __pycache__/
 *.idea/
+*.json
+*.csv
