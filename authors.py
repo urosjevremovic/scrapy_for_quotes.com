@@ -2,7 +2,7 @@
 import scrapy
 
 
-class QuotesSpider(scrapy.Spider):
+class AuthorsSpider(scrapy.Spider):
     name = 'authors'
     allowed_domains = ['toscrape.com']
     start_urls = ['http://quotes.toscrape.com']

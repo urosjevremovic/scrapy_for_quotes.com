@@ -4,7 +4,7 @@ import json
 import scrapy
 
 
-class QuotesSpider(scrapy.Spider):
+class QuotesScrollSpider(scrapy.Spider):
     name = 'quotes-scroll'
     allowed_domains = ['toscrape.com']
     api_url = 'http://quotes.toscrape.com/api/quotes?page={}'
